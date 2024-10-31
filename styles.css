@@ -1,0 +1,109 @@
+/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
+
+/*Bright blue: #082B59
+Navy: #131D26
+Coffee: #59331d
+Peach: #D98555
+White: #f2f2f2
+*/
+
+.navbar {
+    background-color: #082B59 !important;
+    border-bottom: #d98555 10px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+header .container-fluid {
+    background-color: #082B59 !important;
+}
+
+header .breadcrumb {
+    background-color: #ffffff !important;
+    border: #ffffff 5px !important;
+    text-align: center;
+    padding: 8px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.breadcrumb {
+    text-decoration: none !important;
+}
+
+nav .img-fluid {
+    max-width: 200px;
+}
+
+nav-link {
+    color: #f2f2f2;
+}
+
+.mainContent {
+    max-width: 1200px;
+    padding-bottom: 70px;
+
+}
+
+.cardSpace {
+    padding: 20px;
+}
+
+b {
+    color: #d98555;
+}
+
+.foot-band {
+    background-color: #082B59 !important;
+}
+
+.cardBorder {
+    border: none !important;
+}
+
+.card-body {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@media only screen and (min-width:1200px) {
+    header .breadcrumb {
+        background-color: #ffffff !important;
+        border: #ffffff 5px !important;
+        text-align: center;
+        padding: 8px;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 413px) and (max-width: 1200px) {
+    nav .img-fluid {
+        max-width: 150px;
+    }
+
+    header .breadcrumb {
+        background-color: #ffffff !important;
+        border: #ffffff 5px !important;
+        text-align: center;
+        padding: 8px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 413px) {
+    nav .img-fluid {
+        max-width: 150px;
+    }
+
+    header .breadcrumb {
+        background-color: #ffffff !important;
+        border: #ffffff 5px !important;
+        text-align: center;
+        padding: 8px;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        font-size: x-small;
+    }
+}
